@@ -1,0 +1,202 @@
+/******************
+global css start
+******************/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+p{
+    color: #999999;
+    font-size: 18px;
+}
+.top{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.top-b{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+}
+/******************
+global css end
+******************/
+.header-section{
+    background: url(../img/banner-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+}
+.header-section .logo-a{
+    margin-right: 10px;
+}
+.header-section .nav-link{
+    color: #fffefe !important;
+}
+.header-section .nav-link:hover{
+    background: url(../img/line.png) center bottom;
+    background-repeat: no-repeat;
+}
+.header-section .content{
+    padding: 130px 0px;
+    padding-right: 100px;
+}
+.header-section .content span{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.header-section .content h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 36px 0px 40px;
+}
+.header-section .content p{
+    color: #999999;
+    font-size: 18px;
+    padding-right: 50px;
+}
+.header-section .content .join-btn{
+    margin-top: 64px;
+    margin-bottom: 70px;
+}
+.header-section .content .join-btn .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #4c4c51;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-info{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #4c4c51;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: .5s;
+}
+/* header css end */
+
+
+/* overvier css start */
+.overvier-section{
+    padding: 66px 0px 80px;
+    border-bottom: 2px solid #ededed;
+}
+.overvier-section .title{
+    text-align: center;
+}
+
+.overvier-section .title h3{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 32px 0px 39px;
+}
+.overvier-section .box-inner{
+    text-align: center;
+    margin-top: 70px;
+}
+.overvier-section .box-inner h2{
+    font-size: 36px;
+    margin: 40px 0px 20px;
+}
+.overvier-section .box-inner p{
+    padding: 0px 30px;
+}
+/* overvier css end */
+
+
+/* device css start */
+.device-section{
+    width: 100%;
+    padding: 66px 0px 0px;
+}
+.device-section .d-img{
+    text-align: center;
+}
+.device-section .title{}
+.device-section .title span{}
+.device-section .title h2{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 22px 0px 30px;
+}
+.device-section .title p{
+    margin: 30px 0px 38px;
+}
+.device-section .icon-box{}
+.device-section .icon-box ul{}
+.device-section .icon-box li{
+    color: #1a1a1a;
+    font-size: 18px;
+    padding-bottom: 22px;
+}
+.device-section .icon-box li .a, .d{
+    padding-right: 10px;
+}
+.device-section .icon-box li .b, .c{
+    padding-right: 15px;
+}
+/* device css end */
+
+
+/* customize css start */
+.customize-secton{
+    background: #f2f2f2;
+}
+.customize-secton .title{
+    padding-top: 132px;
+    padding-right: 46px;
+}
+.customize-secton .title span{}
+.customize-secton .title h2{
+    margin: 24px 0px 36px;
+}
+.customize-secton .title p{
+    margin-top: 30px;
+}
+.customize-secton .c-img{
+    margin-top: 100px;
+}
+.customize-secton .c-img img{
+    margin-left: -47px;
+}
+/* customize css end */
