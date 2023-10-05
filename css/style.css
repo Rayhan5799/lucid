@@ -19,29 +19,27 @@ ul{
 li{
     list-style: none;
 }
-p{
-    color: #999999;
-    font-size: 18px;
-}
-.top{
+.title-h{
     color: #008ed6;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
 }
-.top-b{
+.title-b{
     color: #1a1a1a;
     font-size: 36px;
     font-weight: 600;
+}
+.title-f{
+    color: #999999;
+    font-size: 18px;
 }
 /******************
 global css end
 ******************/
 .header-section{
-    background: url(../img/banner-a.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../img/banner-a.png) center bottom no-repeat;
     background-size: cover;
     padding: 15px 0px;
 }
@@ -56,30 +54,23 @@ global css end
     background-repeat: no-repeat;
 }
 .header-section .content{
-    padding: 130px 0px;
-    padding-right: 100px;
+    padding: 130px 0px 0px;
+
 }
-.header-section .content span{
-    color: #008ed6;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
+
 .header-section .content h1{
     color: #fff;
     font-size: 48px;
     font-weight: 600;
     margin: 36px 0px 40px;
+    padding-right: 20px;
 }
 .header-section .content p{
-    color: #999999;
-    font-size: 18px;
-    padding-right: 50px;
+    padding-right: 150px;
 }
 .header-section .content .join-btn{
     margin-top: 64px;
-    margin-bottom: 70px;
+    margin-bottom: 130px;
 }
 .header-section .content .join-btn .btn-primary{
     background: #008ed6;
@@ -91,7 +82,7 @@ global css end
     border-radius: 4px;
     transition: .5s;
 }
-.header-section .content .join-btn .btn-primary:hover{
+.header-section .content .join-btn .btn-primary:hover {
     background: transparent;
     border: 1px solid #4c4c51;
     transition: .5s;
@@ -124,10 +115,7 @@ global css end
 }
 
 .overvier-section .title h3{
-    color: #1a1a1a;
-    font-size: 36px;
-    font-weight: 600;
-    margin: 32px 0px 39px;
+    margin: 20px 0px 39px;
 }
 .overvier-section .box-inner{
     text-align: center;
@@ -151,12 +139,8 @@ global css end
 .device-section .d-img{
     text-align: center;
 }
-.device-section .title{}
-.device-section .title span{}
+
 .device-section .title h2{
-    color: #1a1a1a;
-    font-size: 36px;
-    font-weight: 600;
     margin: 22px 0px 30px;
 }
 .device-section .title p{
@@ -193,10 +177,10 @@ global css end
 .customize-secton .title p{
     margin-top: 30px;
 }
-.customize-secton .c-img{
+.customize-secton .phone2{
     margin-top: 100px;
 }
-.customize-secton .c-img img{
+.customize-secton . img{
     margin-left: -47px;
 }
 /* customize css end */
